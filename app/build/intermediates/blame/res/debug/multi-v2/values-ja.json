@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\Public\\Armonia\\app\\build\\intermediates\\res\\merged\\debug\\values-ja\\values-ja.xml",
             "map": [
                 {
@@ -47,6 +48,12 @@
                 },
                 {
                     "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\9fa7483220e6894b22cb1728213ce5f0\\res\\values-ja\\values-ja.xml",
+=======
+            "outputFile": "C:\\Android\\Armonia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\dlwng\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\3243f551d0cdf9e7d4acbf473fae2f32\\res\\values-ja\\values-ja.xml",
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -60,6 +67,16 @@
                         "startOffsets": "1832",
                         "endColumns": "100",
                         "endOffsets": "1928"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\dlwng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\6dbd22a3872c48491f236e2f660473e8\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,202,295,400,482,580,688,765,841,919,1021,1120,1215,1318,1413,1509,1657,1754",
+                        "endColumns": "96,92,104,81,97,107,76,75,77,101,98,94,102,94,95,147,96,77",
+                        "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,1827"
                     }
                 }
             ]

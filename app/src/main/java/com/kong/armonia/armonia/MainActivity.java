@@ -18,7 +18,12 @@ public class MainActivity extends AppCompatActivity {
     private EditText password;
 
     //hi
+<<<<<<< HEAD
     //아아 마이크 테스트
+=======
+    //hello
+
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

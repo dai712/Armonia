@@ -17,7 +17,11 @@
 rule CXX_COMPILER__native-lib
   depfile = $DEP_FILE
   deps = gcc
+<<<<<<< HEAD
   command = C:\Users\Public\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Public/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Public/ndk-bundle/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
+=======
+  command = C:\Users\dlwng\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $IN_ABS
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
   description = Building CXX object $out
 
 
@@ -25,7 +29,11 @@ rule CXX_COMPILER__native-lib
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__native-lib
+<<<<<<< HEAD
   command = cmd.exe /C "$PRE_LINK && C:\Users\Public\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Public/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Public/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+=======
+  command = cmd.exe /C "$PRE_LINK && C:\Users\dlwng\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +50,11 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
+<<<<<<< HEAD
   command = C:\Users\Public\cmake\3.6.4111459\bin\cmake.exe -HC:\Users\Public\Armonia\app -BC:\Users\Public\Armonia\app\.externalNativeBuild\cmake\debug\x86_64
+=======
+  command = C:\Users\dlwng\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe -HC:\Android\Armonia\app -BC:\Android\Armonia\app\.externalNativeBuild\cmake\debug\x86_64
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +63,11 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
+<<<<<<< HEAD
   command = C:\Users\Public\cmake\3.6.4111459\bin\ninja.exe -t clean
+=======
+  command = C:\Users\dlwng\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe -t clean
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
   description = Cleaning all built files...
 
 
@@ -59,6 +75,10 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
+<<<<<<< HEAD
   command = C:\Users\Public\cmake\3.6.4111459\bin\ninja.exe -t targets
+=======
+  command = C:\Users\dlwng\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe -t targets
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
   description = All primary targets available:
 

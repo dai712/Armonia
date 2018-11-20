@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/Public/Armonia/app
+=======
+# Install script for directory: C:/Android/Armonia/app
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +44,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Users/Public/Armonia/app/.externalNativeBuild/cmake/release/x86_64/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "C:/Android/Armonia/app/.externalNativeBuild/cmake/release/x86_64/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

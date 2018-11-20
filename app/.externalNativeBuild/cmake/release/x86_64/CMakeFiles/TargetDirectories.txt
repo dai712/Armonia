@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:/Users/Public/Armonia/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/native-lib.dir
 C:/Users/Public/Armonia/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
 C:/Users/Public/Armonia/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+=======
+C:/Android/Armonia/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/native-lib.dir
+C:/Android/Armonia/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+C:/Android/Armonia/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860

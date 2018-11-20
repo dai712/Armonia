@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 set(CMAKE_C_COMPILER "C:/Users/Public/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe")
+=======
+set(CMAKE_C_COMPILER "C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe")
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "Clang")
 set(CMAKE_C_COMPILER_VERSION "7.0")
@@ -13,9 +17,15 @@ set(CMAKE_C_PLATFORM_ID "")
 set(CMAKE_C_SIMULATE_ID "")
 set(CMAKE_C_SIMULATE_VERSION "")
 
+<<<<<<< HEAD
 set(CMAKE_AR "C:/Users/Public/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/i686-linux-android-ar.exe")
 set(CMAKE_RANLIB "C:/Users/Public/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/i686-linux-android-ranlib.exe")
 set(CMAKE_LINKER "C:/Users/Public/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/i686-linux-android-ld.exe")
+=======
+set(CMAKE_AR "C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/i686-linux-android-ar.exe")
+set(CMAKE_RANLIB "C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/i686-linux-android-ranlib.exe")
+set(CMAKE_LINKER "C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/i686-linux-android-ld.exe")
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
 set(CMAKE_COMPILER_IS_GNUCC )
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -63,5 +73,9 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "dl;c;dl")
+<<<<<<< HEAD
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Users/Public/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86;C:/Users/Public/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/7.0.2/lib/linux/i386;C:/Users/Public/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x;C:/Users/Public/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/i686-linux-android/lib;C:/Users/Public/ndk-bundle/platforms/android-16/arch-x86/usr/lib")
+=======
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86;C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/7.0.2/lib/linux/i386;C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x;C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/i686-linux-android/lib;C:/Users/dlwng/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-16/arch-x86/usr/lib")
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

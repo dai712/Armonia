@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\Public\\Armonia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
@@ -20,6 +21,12 @@
             "map": [
                 {
                     "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a221b42fabb3e6ea77dc4b9496e3f643\\res\\values-land\\values-land.xml",
+=======
+            "outputFile": "C:\\Android\\Armonia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\dlwng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\6dbd22a3872c48491f236e2f660473e8\\res\\values-land\\values-land.xml",
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

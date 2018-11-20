@@ -1,16 +1,29 @@
 {
   "buildFiles": [
+<<<<<<< HEAD
     "C:\\Users\\Public\\Armonia\\app\\CMakeLists.txt"
   ],
   "cleanCommands": [
     "C:\\Users\\Public\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Public\\Armonia\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+=======
+    "C:\\Android\\Armonia\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\dlwng\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Armonia\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
   ],
   "libraries": {
     "native-lib-Debug-arm64-v8a": {
       "artifactName": "native-lib",
+<<<<<<< HEAD
       "buildCommand": "C:\\Users\\Public\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Public\\Armonia\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target native-lib",
       "abi": "arm64-v8a",
       "output": "C:\\Users\\Public\\Armonia\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative-lib.so"
+=======
+      "buildCommand": "C:\\Users\\dlwng\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Armonia\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "C:\\Android\\Armonia\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative-lib.so"
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
     }
   }
 }

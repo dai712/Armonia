@@ -1,16 +1,29 @@
 {
   "buildFiles": [
+<<<<<<< HEAD
     "C:\\Users\\Public\\Armonia\\app\\CMakeLists.txt"
   ],
   "cleanCommands": [
     "C:\\Users\\Public\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Public\\Armonia\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+=======
+    "C:\\Android\\Armonia\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\dlwng\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Armonia\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
   ],
   "libraries": {
     "native-lib-Release-armeabi-v7a": {
       "artifactName": "native-lib",
+<<<<<<< HEAD
       "buildCommand": "C:\\Users\\Public\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Public\\Armonia\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target native-lib",
       "abi": "armeabi-v7a",
       "output": "C:\\Users\\Public\\Armonia\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libnative-lib.so"
+=======
+      "buildCommand": "C:\\Users\\dlwng\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Android\\Armonia\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target native-lib",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Android\\Armonia\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libnative-lib.so"
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
     }
   }
 }

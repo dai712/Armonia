@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\Public\\Armonia\\app\\build\\intermediates\\res\\merged\\debug\\values-sq\\values-sq.xml",
             "map": [
                 {
                     "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a221b42fabb3e6ea77dc4b9496e3f643\\res\\values-sq\\values-sq.xml",
+=======
+            "outputFile": "C:\\Android\\Armonia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\dlwng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\6dbd22a3872c48491f236e2f660473e8\\res\\values-sq\\values-sq.xml",
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +21,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\9fa7483220e6894b22cb1728213ce5f0\\res\\values-sq\\values-sq.xml",
+=======
+                    "source": "C:\\Users\\dlwng\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\3243f551d0cdf9e7d4acbf473fae2f32\\res\\values-sq\\values-sq.xml",
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -29,6 +40,7 @@
                         "endColumns": "100",
                         "endOffsets": "2058"
                     }
+<<<<<<< HEAD
                 }
             ]
         },
@@ -61,6 +73,8 @@
                         "endColumns": "100",
                         "endOffsets": "2058"
                     }
+=======
+>>>>>>> 393b3e37fb6fe59b06fbe5d751bb26d02cdf3860
                 }
             ]
         }
