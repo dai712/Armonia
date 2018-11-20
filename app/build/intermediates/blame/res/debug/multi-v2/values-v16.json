@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\USER\\AndroidStudioProjects\\Armonia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\dd3f7069d7087ee220f7d1a286b8352e\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\e6a1b953650d3702894560b728228c4f\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\df839e064009f4f431fc51c7c6570bb1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\dbce43a22232deab2098d0eac1e1d9ef\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
