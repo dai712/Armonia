@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\USER\\AndroidStudioProjects\\Armonia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
+            "outputFile": "C:\\Users\\Public\\Armonia\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\e6a1b953650d3702894560b728228c4f\\res\\values-si\\values-si.xml",
+                    "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a221b42fabb3e6ea77dc4b9496e3f643\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,322,429,517,622,738,827,914,998,1107,1212,1310,1420,1519,1625,1784,1883",
+                        "endColumns": "109,106,106,87,104,115,88,86,83,108,104,97,109,98,105,158,98,81",
+                        "endOffsets": "210,317,424,512,617,733,822,909,993,1102,1207,1305,1415,1514,1620,1779,1878,1960"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\9fa7483220e6894b22cb1728213ce5f0\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,15 +29,37 @@
                         "endColumns": "100",
                         "endOffsets": "2061"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Public\\Armonia\\app\\build\\intermediates\\res\\merged\\debug\\values-si\\values-si.xml",
+            "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\dbce43a22232deab2098d0eac1e1d9ef\\res\\values-si\\values-si.xml",
+                    "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a221b42fabb3e6ea77dc4b9496e3f643\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
                         "startOffsets": "105,215,322,429,517,622,738,827,914,998,1107,1212,1310,1420,1519,1625,1784,1883",
                         "endColumns": "109,106,106,87,104,115,88,86,83,108,104,97,109,98,105,158,98,81",
                         "endOffsets": "210,317,424,512,617,733,822,909,993,1102,1207,1305,1415,1514,1620,1779,1878,1960"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\최철원\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\9fa7483220e6894b22cb1728213ce5f0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1965",
+                        "endColumns": "100",
+                        "endOffsets": "2061"
                     }
                 }
             ]
